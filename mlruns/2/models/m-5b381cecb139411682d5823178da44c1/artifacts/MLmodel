@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/User/Machine Learning/Matkul_ML/Midterm Machine Learning/Regression/mlruns/2/models/m-5b381cecb139411682d5823178da44c1/artifacts
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.13.5
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.11.0+cu128
+mlflow_version: 3.11.1
+model_id: m-5b381cecb139411682d5823178da44c1
+model_size_bytes: 370112
+model_uuid: m-5b381cecb139411682d5823178da44c1
+prompts: null
+run_id: cad120f67f74477aa104edd88d64560c
+utc_time_created: '2026-06-22 01:46:03.299050'

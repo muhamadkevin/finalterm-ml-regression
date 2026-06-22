@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/User/Machine Learning/Matkul_ML/Midterm Machine Learning/Regression/mlruns/1/models/m-6e6b3ea8c6854e36ab4f51a9fb78fb89/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.13.5
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBRegressor
+    model_format: ubj
+    xgb_version: 3.1.2
+mlflow_version: 3.11.1
+model_id: m-6e6b3ea8c6854e36ab4f51a9fb78fb89
+model_size_bytes: 42583625
+model_uuid: m-6e6b3ea8c6854e36ab4f51a9fb78fb89
+prompts: null
+run_id: e5d0325fe38647f494620ab75733f038
+utc_time_created: '2026-05-12 08:29:59.113008'
